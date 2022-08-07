@@ -41,4 +41,3 @@ while (number>1)
 	{Console.WriteLine(number);}
 	number--;
 }
-*/
