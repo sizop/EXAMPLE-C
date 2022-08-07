@@ -1,11 +1,11 @@
 ﻿*/
 // Получаем первую и третью цифру трехзначного числа
-/*
+
  string inputNumber = Console.ReadLine(); //"456"
 Console.WriteLine(inputNumber[0]+ inputNumber[2]);
 
 // 2. int
-
+/*
 int number = new Random().Next(100, 1000); // [0;999]
 int result = ((number/100) * 10) + number % 10;//456 -> 4, 456 % 10 -> 6
 
