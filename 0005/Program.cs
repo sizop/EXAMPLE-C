@@ -28,5 +28,20 @@ if (number % 7 == 0 || number % 23 == 0) Console.WriteLine("Кратно 7 и 23
 else Console.WriteLine("Не кратно 7 и 23");
 */
 
-int[] num = {1,2,3,4,5,6};
-System.Console.WriteLine(num.Length);
+//const int = n;
+//Надо задать массив размером n и заполнить его рандомными значениями от a до b;
+
+/*
+int n = 10; 
+int a = 20;
+int b = 30;
+Random rnd1 = new Random();
+ 
+double[] MyArray=new double[n];
+int[] MyIntArray=new int[n];
+ 
+for(int i=0;i<MyArray.Length;i++)
+{
+  MyArray[i] = rnd1.NextDouble()*(b-a)+a;
+  MyIntArray[i]= rnd1.Next(a,b);}
+  */
