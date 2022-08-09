@@ -1,9 +1,8 @@
-﻿*/
-// Получаем первую и третью цифру трехзначного числа
-
+﻿// Получаем первую и третью цифру трехзначного числа
+/*
  string inputNumber = Console.ReadLine(); //"456"
 Console.WriteLine(inputNumber[0]+ inputNumber[2]);
-
+*/
 // 2. int
 /*
 int number = new Random().Next(100, 1000); // [0;999]
@@ -28,3 +27,6 @@ int number = Convert.ToInt32(Console.ReadLine());
 if (number % 7 == 0 || number % 23 == 0) Console.WriteLine("Кратно 7 и 23");
 else Console.WriteLine("Не кратно 7 и 23");
 */
+
+int[] num = {1,2,3,4,5,6};
+System.Console.WriteLine(num.Length);
