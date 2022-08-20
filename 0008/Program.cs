@@ -61,6 +61,17 @@ Console.WriteLine("[" + String.Join(", ", array) + "]");
 for (int j = 0; j < array.Length; j++) array[j] *= -1;
 Console.WriteLine("[" + String.Join(", ", array) + "]");
 */
+/*
+int [] array = {0, -1, -2, 3, 4, 5, 6, 7};
+
+for (int i = 0; i < array.Length; i++)
+{
+    array[i] = -array[i];
+    // array[i] *= (-1)
+}
+
+Console.WriteLine($"Array: [ {String.Join("; ", array)} ]");
+*/
 
 // Задача 33: Задайте массив. Напишите программу, которая определяет, присутствует ли 
 // заданное число в массиве.
@@ -83,6 +94,25 @@ Console.WriteLine("[" + String.Join(", ", array) + "]");
 if (result) Console.WriteLine("Число найдено");
 else Console.WriteLine("Число не найдено");
 */
+/*
+int [] array = {0, -1, -2, 3, 4, 5, 6, 7};
+int searchNumber = Convert.ToInt32(Console.ReadLine());
+bool flagResult = false; 
+// flagResult = false - element not found
+// flagResult = true - element found
+for (int i = 0; i < array.Length; i++)
+{
+    if (array[i] == searchNumber) 
+    {
+        flagResult = true;
+        break; // break - ломает цикл
+    }
+}
+
+if (flagResult) Console.WriteLine("element found");
+// flagResult == true => if (flagResult)
+else Console.WriteLine("element not found");
+*/
 
 // Задача 35: Задайте одномерный массив из 123 случайных чисел. Найдите количество 
 // элементов массива, значения которых лежат в отрезке [10,99]. 
@@ -100,4 +130,16 @@ for (int i = 0; i < array.Length; i++)
     //Console.Write(array[i] + "  ");  
     if (array[i] >= 10 && array[i] <=99) count++;
 }
+*/
+/*
+int [] array = {0, -1, -2, 3, 4, 5, 6, 7,66,35,88};
+// [10;99]
+
+int count = 0; // количество чисел, принадлежащих диапазону [10;99]
+
+for (int i = 0; i < array.Length; i++)
+{
+    if (array[i] >= 10 && array[i] <= 99) count++;
+}
+Console.WriteLine($"Количество элементов в диапазоне от 10 до 99 = {count}");
 */
