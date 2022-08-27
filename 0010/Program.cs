@@ -120,22 +120,22 @@ void PrintArray(int[,] inputMatrix)
 
 /*
 int[,] matrix = new int[3, 4];
-int summa=0;
+int summa = 0;
 for (int i = 0; i < matrix.GetLength(0); i++)//строчки
+{
+	for (int j = 0; j < matrix.GetLength(1); j++)// столбцы
 	{
-		for (int j = 0; j < matrix.GetLength(1); j++)// столбцы
-		{
-			matrix[i, j] = new Random().Next(11);
-			if (i  == j)  {summa=summa+matrix[i, j];}
-		}
+		matrix[i, j] = new Random().Next(11);
+		if (i == j) { summa += matrix[i, j]; }
 	}
-	for (int i = 0; i < matrix.GetLength(0); i++) // строчки
+}
+for (int i = 0; i < matrix.GetLength(0); i++) // строчки
+{
+	for (int m = 0; m < matrix.GetLength(1); m++) // столбцы
 	{
-		for (int m = 0; m < matrix.GetLength(1); m++) // столбцы
-		{
-			Console.Write(matrix[i, m] + "\t"); //"\t" - Tab
-		}
-		Console.WriteLine();
+		Console.Write(matrix[i, m] + "\t"); //"\t" - Tab
 	}
-	Console.WriteLine($"Сумма по диагонали =  {summa}");
-	*/
+	Console.WriteLine();
+}
+Console.WriteLine($"Сумма по диагонали =  {summa}");
+*/
