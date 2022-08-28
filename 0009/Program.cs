@@ -84,7 +84,8 @@ Console.WriteLine("Ведите второе число");
 int secondNum = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Ведите третье число");
 int thirdNum = Convert.ToInt32(Console.ReadLine());
-if( firstNum < secondNum + thirdNum && secondNum < firstNum + thirdNum && thirdNum < firstNum + secondNum ) Console.WriteLine("Треугольник со сторонами указаного размера существует");
+if( firstNum < secondNum + thirdNum && secondNum < firstNum + thirdNum && 
+thirdNum < firstNum + secondNum ) Console.WriteLine("Треугольник со сторонами указаного размера существует");
 else Console.WriteLine("Треугольник со сторонами указаного размера не существует");
 */
 
