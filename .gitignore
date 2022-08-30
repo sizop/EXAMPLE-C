@@ -88,13 +88,12 @@ StyleCopReport.xml
 *.tlh
 *.tmp
 *.tmp_proj
-*.wpftmp
-*.csproj
+*_wpftmp.csproj
 *.log
 *.tlog
 *.vspscc
 *.vssscc
-*.builds
+.builds
 *.pidb
 *.svclog
 *.scc
