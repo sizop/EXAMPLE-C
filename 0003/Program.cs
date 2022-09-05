@@ -28,4 +28,4 @@ while (negativNumber<=number)
 {
 	Console.WriteLine(negativNumber);
 	negativNumber++;
-}-+
+}
